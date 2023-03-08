@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-08T11:27:26 IST" name="Default suite" finished-at="2023-03-08T11:27:39 IST" duration-ms="12976">
+    <groups>
+      <group name="regression">
+        <method signature="AddDoctorTest.addDoctorTest()[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" name="addDoctorTest" class="hms.nml.admin.AddDoctorTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-03-08T11:27:26 IST" name="Default test" finished-at="2023-03-08T11:27:39 IST" duration-ms="12976">
+      <class name="hms.nml.admin.AddDoctorTest">
+        <test-method is-config="true" signature="initializationSetup(java.lang.String)[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" started-at="2023-03-08T11:27:26 IST" name="initializationSetup" finished-at="2023-03-08T11:27:28 IST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" started-at="2023-03-08T11:27:28 IST" name="setUp" finished-at="2023-03-08T11:27:32 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addDoctorTest()[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" started-at="2023-03-08T11:27:32 IST" name="addDoctorTest" finished-at="2023-03-08T11:27:39 IST" duration-ms="7137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDoctorTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" started-at="2023-03-08T11:27:39 IST" name="tearDown" finished-at="2023-03-08T11:27:39 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializationTearDown()[pri:0, instance:hms.nml.admin.AddDoctorTest@4f2b503c]" started-at="2023-03-08T11:27:39 IST" name="initializationTearDown" finished-at="2023-03-08T11:27:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTearDown -->
+      </class> <!-- hms.nml.admin.AddDoctorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
