@@ -77,6 +77,7 @@ public class Practice {
 		int reqDt = 07;
 		int date = calenderPopup(currentMonth, reqMon, reqYr, reqDt, next, previous);
 		driver.findElement(By.xpath("(//td[@class='calendarDateInput' and text()='"+date+"'])[1]")).click();
+		System.out.println("date");
 	}
 }
 
